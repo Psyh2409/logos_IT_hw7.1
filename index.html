@@ -12,44 +12,59 @@
       <header class="head">
         <h2 class="h2">
           <span class="bold">Log In</span>
-          <span class="transparency"> or </span>
+          <span class="trans"> or </span>
           <span class="blue"><a href="signUp.html">Sign Up</a></span>
         </h2>
-        <hr class="transparensy">
+        <hr class="trans">
       </header>
-      <div class="right">
+      <div class="contner">
+      <div class="blocks left">
         <h4 class="txt">
-          <span class="transparency">Log in using your </span>
+          <span class="trans">Log in using your </span>
           <span class="blue">Facebook</span>
-          <span class="transparency"> or </span>
+          <span class="trans"> or </span>
           <span class="twit">Twitter</span>
-          <span class="transparency"> account below </span>
+          <span class="trans"> account below </span>
         </h4>
-        <form action="button">
-          <button>
-            <img src="/images/fb-icon.png" alt="Facebook" /> log in using your
-            facebook
+        <div class="button">
+          <button class="fb">
+            <img src="/images/fb-icon.png" alt="Facebook" />
+            <h5 class="h5"> log in using your facebook</h5>
+            
           </button>
-        </form>
+        </div>
         <br />
-        <form action="button">
-          <button>
-            <img src="/images/twitter-icon.png" alt="Twitter" /> log in using
-            your twitter
-          </button>
-        </form>
+        <div class="button">
+          <button class="tw">
+            <img src="/images/twitter-icon.png" alt="Twitter" />
+            <h5 class="h5"> log in using your twitter</h5>
+            </button>
+        </div>
       </div>
-      <hr class="vert transparency" />
-      <span class="or transparency">or</span>
-      <hr class="vert transparency" />
-      <div class="left">
-          <form action="/auth/login">
-            <input type="text" name="login" id="login" >
-            <br>
-            <br>
-            <input type="text" name="login" id="login">
-        </form>
+      <div class="cont">
+        <span class="fl">FuckenLine</span>
+        <span class="or"><h4 class="txt">or</h4></span>
+        <span class="fl">FuckenLine</span>
+    </div>
+      <div class="blocks right">
+          <form  action="/smth.html" /*method="post"*/ class="frm"> 
+            <p>
+            <input type="text" name="login" id="login" 
+            maxlength="25" class="text">
+          </p>
+            <p>
+            <input type="password" name="password" id="password" maxlength="12" class="pass">
+          </p>
+            <p class="pright">
+              <input type="submit" value="Log In" class="sbmt">
+              <h4 class="trans"><a href="/forgot.html">
+                Forgot password?
+              </a>
+              </h4>
+          </p>
+          </form>
       </div>
     </div>
+  </div>
   </body>
 </html>
