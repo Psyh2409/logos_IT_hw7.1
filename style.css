@@ -8,7 +8,6 @@
 }
 .form{
     width: 55%;
-    /* height: %; */
     background: url("/images/form-bg.png") no-repeat;
     background-size: 100%;
     margin-top: 10%;
@@ -18,7 +17,7 @@
     padding-right: 3%;
     padding-bottom: 5%;
     font-family: Arial, Helvetica, sans-serif;
-    color: rfb(46,46,46);
+    color: #464646;
 }
 .head{
     font-size: 0.7rem;
@@ -40,14 +39,19 @@
     width: 45%;
     height: 100%;
 }
-
+.button{
+    border-radius: .5rem;
+    background: linear-gradient(to top, #668dc8, #4870ab);
+}
 .button button{
     width: 90%;
     height: 2.5em;
     color: #fff;
     display: flex;
     justify-content: left;
-    align-items: center;    
+    align-items: center;
+    /* border-style: none; */
+    /* border-bottom: #464646;     */
 }
 .txt{
     font-size: .7em;
@@ -55,16 +59,23 @@
 .left button img{
     float: left;
     margin: 3%;
-    margin-left: -2px;    
+    margin-left: 2px;    
 }
 .h5{
     margin-left: 1em;
 }
 .fb{
-    background: linear-gradient(#668dc8, #4870ab);
+    margin: 1rem;
+    background: linear-gradient(to bottom, #668dc8, #4870ab);
+    /* border-style: none; */
+    border-top: 2px solid #4870ab;
+    /* border-color:  red; */
 }
 .tw{
-    background: linear-gradient(#53d0d5, #36b3b8);
+    margin: 1rem;
+    background: linear-gradient(to bottom, #53d0d5, #36b3b8);
+    border-style: none;
+    border-top: 2px solid #b9b9b9 !;
 }
 .cont{
     width: 5%;
@@ -76,7 +87,7 @@
 }
 span.fl{
     text-decoration: line-through;
-    text-decoration-color: #b9b9b9;
+    text-decoration-color: #464646;
     color: rgba(0, 0, 0, 0);
     letter-spacing: 0.3rem;
     padding: 5% 5%;
@@ -85,18 +96,22 @@ span.fl{
     transform: rotate(90deg);
 }
 span.or{
-    color: #b9b9b9;
+    color: #464646;
     padding: 20px;
 }
 .sbmt{
     background: linear-gradient(#fad965, #d1b03d);
+    color: #464646;
     width: 40%;
+    height: 2.5em;
     font-size: 0.9rem;
     font-weight: bold;
     padding: 2%;
     margin-right: 2.25%; 
     margin-top: 0.1rem;
     margin-bottom: -5%;
+    border-style: none;
+    border-bottom: 2px solid #787878;
 }
 .right{
     margin-top: -2%;
@@ -105,19 +120,24 @@ span.or{
     text-align: end;
 }
 .text{
-    background: url("/images/user-icon.png") no-repeat left center;
+    background: url("/images/user-icon.png") #464646 no-repeat left center;
     background-color: #fff;
     background-position: 2%;
+    border-style: none;
+    border-top: 2px solid #b9b9b9;
 }
 .pass{
     background: url("/images/password-icon.png") no-repeat left center;
     background-color: #fff;
     background-position: 2%;
+    border-style: none;
+    border-top: 2px solid #b9b9b9;
 }
 .text, .pass {
     width: 90%;
     height: 1rem;
     padding: 3%;
+    margin-left: 0%;
 }
 .frgt{
     color: #b9b9b9;
@@ -130,3 +150,19 @@ span.or{
 .blue #a{
     color: #2944ab;
 }
+.radius{
+    border-radius: .5em;
+    /* border-style: none; */
+} 
+.tw, .fb{
+    border-style: none;
+    /* border-color: #fff; */
+}
+/* .button .fb{
+    background: linear-gradient(to bottom, #668dc8, #4870ab);
+    margin-rig */
+}
+/* .button .sbmt{
+    align-self:flex-end;
+} */
+
