@@ -1,168 +1,130 @@
-.other{
-    background-color: rgb(253, 253, 4);
-    color: blue;
-    text-align: center;
-}
 .bd{
-    background: url("/images/bg.jpg") no-repeat #000 center;
+    background: url(/images/bg.jpg) #000 no-repeat center top;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 19%;
+    padding-right: 19%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: small;
 }
-.form{
-    width: 55%;
-    background: url("/images/form-bg.png") no-repeat;
-    background-size: 100%;
-    margin-top: 10%;
-    margin-left: 20%;
-    padding-top: 7%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 5%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #464646;
+.external{
+    background: url(/images/form-bg.png) no-repeat;
+    width: 92%;
+    height: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 6%;
+    padding-top: 10%;
 }
-.head{
-    font-size: 0.7rem;
+.external header{
+    font-size: small;
+    width: 100%;
 }
-.contner{
+.external .cont{
+    width: auto;
+    height: auto;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
-.trans{
-    opacity: .25;
+.middle{
+    width: 3%;
+    height: 80%;
 }
-.blue{
-    color: #2944ab;
+.middle .fl{
+    text-decoration: line-through;
+    transform: rotate(90deg);
+    display: inline-block;
+    margin: 1rem;
+    margin-left: -1rem;
+    color: rgba(0, 0, 0, .0);
+    text-decoration-color: #b9b9b9;
 }
-.twit{
-    color: #30cad0;
+.middle .or{
+    display: inline-block;
 }
-
-.blocks{
+.left, .right{
     width: 45%;
-    height: 100%;
+    height: 150px;
 }
-.button{
-    border-radius: .5rem;
-    background: linear-gradient(to top, #668dc8, #4870ab);
-}
-.button button{
-    width: 90%;
-    height: 2.5em;
-    color: #fff;
+.fb, .tw{
+    width: 95%;
+    height: 45%;
     display: flex;
-    justify-content: left;
+    flex-wrap: nowrap;
     align-items: center;
-    /* border-style: none; */
-    /* border-bottom: #464646;     */
+    color: #fff;
 }
-.txt{
-    font-size: .7em;
-}
-.left button img{
-    float: left;
-    margin: 3%;
-    margin-left: 2px;    
-}
-.h5{
-    margin-left: 1em;
-}
-.fb{
-    margin: 1rem;
+.button .fb{
     background: linear-gradient(to bottom, #668dc8, #4870ab);
-    /* border-style: none; */
+    border-style: none;
     border-top: 2px solid #4870ab;
-    /* border-color:  red; */
+    margin-top: -60px;
+    margin-left: 1rem;
 }
-.tw{
-    margin: 1rem;
+.button .tw{
     background: linear-gradient(to bottom, #53d0d5, #36b3b8);
     border-style: none;
-    border-top: 2px solid #b9b9b9 !;
+    border-top: 2px solid #36b3b8;
+    margin-top: -120px;
+    margin-left: 1rem;
 }
-.cont{
-    width: 5%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding-top: 3rem;
+.radius{
+    border-radius: .5em;
 }
-span.fl{
-    text-decoration: line-through;
-    text-decoration-color: #464646;
-    color: rgba(0, 0, 0, 0);
-    letter-spacing: 0.3rem;
-    padding: 5% 5%;
-    font-size: 0.2rem;
-    transform: scaleX(2);
-    transform: rotate(90deg);
+div .button img{
+    float: left;
+    margin-right: 15px;
 }
-span.or{
-    color: #464646;
-    padding: 20px;
-}
-.sbmt{
-    background: linear-gradient(#fad965, #d1b03d);
-    color: #464646;
-    width: 40%;
-    height: 2.5em;
-    font-size: 0.9rem;
-    font-weight: bold;
-    padding: 2%;
-    margin-right: 2.25%; 
-    margin-top: 0.1rem;
-    margin-bottom: -5%;
-    border-style: none;
-    border-bottom: 2px solid #787878;
-}
-.right{
-    margin-top: -2%;
-    align-items: center;
-    margin-left: 5%;
-    text-align: end;
-}
-.text{
-    background: url("/images/user-icon.png") #464646 no-repeat left center;
-    background-color: #fff;
-    background-position: 2%;
-    border-style: none;
-    border-top: 2px solid #b9b9b9;
-}
-.pass{
-    background: url("/images/password-icon.png") no-repeat left center;
-    background-color: #fff;
-    background-position: 2%;
-    border-style: none;
-    border-top: 2px solid #b9b9b9;
-}
-.text, .pass {
-    width: 90%;
-    height: 1rem;
-    padding: 3%;
-    margin-left: 0%;
-}
-.frgt{
-    color: #b9b9b9;
-    margin-top: 0.5rem;
-}
-#a{
+a{
     text-decoration: none;
+}
+.grey{
     color: #b9b9b9;
 }
 .blue #a{
     color: #2944ab;
 }
-.radius{
-    border-radius: .5em;
-    /* border-style: none; */
-} 
-.tw, .fb{
+.blue{
+    color: #2944ab;
+}
+.bold{
+    color: #464646;
+}
+.twit{
+    color: #30cad0;
+}
+.frm .text{
+    background: url(/images/user-icon.png) no-repeat #fff left;
+    background-position: 2.5%;
+    padding: 0.4rem;
+    padding-left: 2.5rem;
     border-style: none;
-    /* border-color: #fff; */
+    border-top: 2px solid #b9b9b9;
 }
-/* .button .fb{
-    background: linear-gradient(to bottom, #668dc8, #4870ab);
-    margin-rig */
+.frm .pass{
+    background: url(/images/password-icon.png) no-repeat #fff left;
+    background-position: 2.5%;
+    padding: 0.4rem;
+    padding-left: 2.5rem;
+    margin-bottom: -20%;
+    border-style: none;
+    border-top: 2px solid #b9b9b9;
 }
-/* .button .sbmt{
-    align-self:flex-end;
-} */
-
+.frm .sbmt{
+    background: linear-gradient(to bottom, #fad965, #d1b03d);
+    padding: .3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-weight: bold;
+    margin-top: -3%;
+    margin-left: 51%;
+    margin-bottom: -15%;
+    border-style: none;
+    border-bottom: 2px solid #464646;
+}
+.frgt #a{
+    color: #b9b9b9;
+    margin-left: 50%;
+}
