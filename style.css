@@ -23,6 +23,7 @@
 .external .cont{
     width: auto;
     height: auto;
+    padding-bottom: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
