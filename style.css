@@ -49,27 +49,36 @@
     width: 45%;
     height: 150px;
 }
-.fb, .tw{
+.button .h5{
+    transform: scaleY(1.7);
+}
+.button .fb{
     width: 95%;
-    height: 45%;
+    height: auto;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     color: #fff;
-}
-.button .fb{
     background: linear-gradient(to bottom, #668dc8, #4870ab);
     border-style: none;
     border-top: 2px solid #4870ab;
-    margin-top: -60px;
+    margin-top: 0px;
     margin-left: 1rem;
+    transform: scaleY(.6);
 }
 .button .tw{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: #fff;
     background: linear-gradient(to bottom, #53d0d5, #36b3b8);
     border-style: none;
     border-top: 2px solid #36b3b8;
-    margin-top: -120px;
+    margin-top: -0.5rem;
     margin-left: 1rem;
+    transform: scaleY(.6);
 }
 .radius{
     border-radius: .5em;
@@ -77,6 +86,7 @@
 div .button img{
     float: left;
     margin-right: 15px;
+    transform: scaleY(2);
 }
 a{
     text-decoration: none;
