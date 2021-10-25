@@ -1,5 +1,5 @@
 .bd{
-    background: url(/images/bg.jpg) #000 no-repeat center top;
+    background: url("/images/bg.jpg") #000 no-repeat center top;
     padding-top: 10rem;
     padding-bottom: 10rem;
     padding-left: 19%;
@@ -8,7 +8,7 @@
     font-size: small;
 }
 .external{
-    background: url(/images/form-bg.png) no-repeat;
+    background: url("/images/form-bg.png") no-repeat;
     width: 92%;
     height: auto;
     padding-left: 4%;
@@ -107,7 +107,7 @@ a{
     color: #30cad0;
 }
 .frm .text{
-    background: url(/images/user-icon.png) no-repeat #fff left;
+    background: url("/images/user-icon.png") no-repeat #fff left;
     background-position: 2.5%;
     padding: 0.4rem;
     padding-left: 2.5rem;
@@ -115,7 +115,7 @@ a{
     border-top: 2px solid #b9b9b9;
 }
 .frm .pass{
-    background: url(/images/password-icon.png) no-repeat #fff left;
+    background: url("/images/password-icon.png") no-repeat #fff left;
     background-position: 2.5%;
     padding: 0.4rem;
     padding-left: 2.5rem;
